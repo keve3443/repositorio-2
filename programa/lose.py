@@ -23,8 +23,11 @@ numero2=float(input("dame otro numero:"))
 
 if numero1 > numero2:
     print("el numero",numero1, "es mayor que el numero",numero2)
+if numero1 == numero2:
+    print("son iguales")
 else:
     print("el numero", numero2,"es mayor que el numero", numero1)
+
 
 
 #22
@@ -49,9 +52,9 @@ print("El MCD es:", mcd(a, b))
 import math
 
 
-a = float(input("Ingrese el coeficiente a: "))
-b = float(input("Ingrese el coeficiente b: "))
-c = float(input("Ingrese el coeficiente c: "))
+a = float(input("Ingrese el valor de a: "))
+b = float(input("Ingrese el valor b: "))
+c = float(input("Ingrese el valor c: "))
 
 
 discriminante = b**2 - 4*a*c
